@@ -13,4 +13,6 @@ Rails.application.routes.draw do
     passwords: 'recipients/passwords',
     registrations: 'recipients/registrations'
   }
+  
+  
 end
