@@ -1,6 +1,6 @@
-class CreatePostimages < ActiveRecord::Migration[5.2]
+class CreatePostImages < ActiveRecord::Migration[5.2]
   def change
-    create_table :postimages do |t|
+    create_table :post_images do |t|
       t.text :title
       t.string :image_id
       t.text :caption

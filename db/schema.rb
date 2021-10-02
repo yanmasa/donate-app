@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_02_141318) do
+ActiveRecord::Schema.define(version: 2021_10_02_141954) do
 
   create_table "contributors", force: :cascade do |t|
     t.string "email", default: "", null: false
@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 2021_10_02_141318) do
     t.index ["reset_password_token"], name: "index_contributors_on_reset_password_token", unique: true
   end
 
-  create_table "postimages", force: :cascade do |t|
+  create_table "post_images", force: :cascade do |t|
     t.text "title"
     t.string "image_id"
     t.text "caption"
