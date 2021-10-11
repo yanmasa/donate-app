@@ -20,4 +20,5 @@ Rails.application.routes.draw do
 
   resources :contributors
   resources :recipients
+  resources :post_images
 end
